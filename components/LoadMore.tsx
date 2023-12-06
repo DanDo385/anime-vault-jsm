@@ -1,21 +1,10 @@
-"use client"
-
 import Image from "next/image";
-import { useInView } from "react-intersection-observer";  
-import { useEffect } from "react";  
 
 function LoadMore() {
-  const { ref, inView } = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      fetchAnime(2)
-    }
-
   return (
     <>
       <section className="flex justify-center items-center w-full">
-        <div ref = {ref}>
+        <div>
           <Image
             src="./spinner.svg"
             alt="spinner"
