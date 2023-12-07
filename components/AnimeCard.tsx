@@ -9,7 +9,6 @@ const variants = {
   visible: { opacity: 1 },
 };
 
-
 export interface AnimeProp {
   id: string;
   name: string;
