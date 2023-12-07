@@ -21,7 +21,6 @@ export interface AnimeProp {
   score: string;
 }
 
-
 interface Prop {
   anime: AnimeProp;
   index: number;
